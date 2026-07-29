@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu Login</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pagina de Login</h1>
+    </header>
+
+    <hr>
+    <main>
+        <form action="./pages/home.html" onsubmit="alert('Login realizado com sucesso!')">
+            <!-- a Tag 'form' abre um formulário na pagina, a Tag 'action' redireciona para outra pagina, e o 'onsubmit' dispara uma mensagem quando finaliza o formulário -->
+
+            <h2>Realize seu Login</h2>
+            <p>Nome:</p>
+            <input required type="text"
+                placeholder="Digite seu nome"><!-- a Tag 'input' insere um campo de resposta do usuario na página, e o 'required' obriga a resposta do campo  -->
+
+            <p>Email:</p>
+            <input required type="email" placeholder="Digite seu email">
+
+            <p>Senha:</p>
+            <input required type="password" placeholder="Digite sua senha">
+
+            <br>
+            <br>
+
+            <button type="submit">Entrar</button>
+            <!-- a Tag 'button' do type 'submit' insere um botão para falar com o formulário -->
+            <button type="reset">Limpar</button>
+
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>
+            <h4>Não possui cadastro?</h4>
+            <a href="./cadastro.html">Realize seu cadastro</a>
+        </p>
+
+
+    </footer>
+</body>
+
+</html>

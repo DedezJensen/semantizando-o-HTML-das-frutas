@@ -4,35 +4,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frutas Pelo Mundo</title>
 </head>
 
 <body>
-    <h1>Pagina de Login</h1>
+
+    <header> <!-- a tag 'header' manipula o cabeçalho da pagina -->
+        <h1>Hoje vamos conhecer frutas típicas de alguns países</h1> <!-- Título da pagina -->
+    </header>
 
     <hr>
 
-    <form action="./pages/home.html" onsubmit="alert('Login realizado com sucesso!')">
-        <!-- a Tag 'form' abre um formulário na pagina, a Tag 'action' redireciona para outra pagina, e o 'onsubmit' dispara uma mensagem quando finaliza o formulário -->
+    <nav> <!-- a tag 'nav' abre a seção de navegação da pagina -->
+        <h3>
+            <p>
+                <a target="_blank" href="./index.html"><img width="35" src="./img/logoMarcaPng.webp"
+                        alt="Logo Marca"></a>
 
-        <h2>Realize seu Login</h2>
-        <p>Nome:</p>
-        <input required type="text"
-            placeholder="Digite seu nome"><!-- a Tag 'input' insere um campo de resposta do usuario na página, e o 'required' obriga a resposta do campo  -->
 
-        <p>Email:</p>
-        <input required type="email" placeholder="Digite seu email">
+                Acessar conta:
 
-        <p>Senha:</p>
-        <input required type="password" placeholder="Digite sua senha">
+                <a href="./pages/login.html">Login</a>
+                |
+                <a href="./pages/cadastro.html">Cadastrar</a>
+            </p>
+        </h3>
+    </nav>
 
-        <br>
-        <br>
+    <hr>
 
-        <button type="submit">Entrar</button> <!-- a Tag 'button' do type 'submit' insere um botão para falar com o formulário -->
-        <button type="reset">Limpar</button>
+    <main> <!-- a tag 'main' manipula o menu de todas as informações principais da pagina -->
 
-    </form>
+        <section> <!-- a tag 'section' abre uma seção na pagina -->
+            <h2>Existem frutas que existem em apenas um país?</h2> <!-- Subtítulo para a pagina -->
+
+            <p>
+                Sim, muitos países possuem frutas típicas apenas do seu país, assim como o Brasil, outros países são
+                ricos
+                em
+                frutos.
+                <br>
+                Dentre todos os países, o Brasil lidera o ranking com mais de 300 espécies, seguido de Colombia com 150
+                a
+                200 e
+                México com mais de 100 espécies.
+                <br>
+                Apesar de serem frutas típicas de cada país, as mesmas são possíceis de se encontrar devido a
+                importação.
+
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Países com mais frutas únicas</h2>
+            <p>
+
+            <article> <!-- a tag 'article' abre/separa um artigo na pagina -->
+                <h3>1º - Brasil</h3>
+
+                <ul>
+
+                    <li>Jabuticaba</li>
+                    <li>Açai</li>
+                    <li>Cupuaçu</li>
+                    <li>Pequi</li>
+                    <li>Umbu</li>
+                    <li>Uvaua</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>2ºColômbia</h3>
+
+                <ul>
+                    <li>Lulo</li>
+                    <li>Borojó</li>
+                    <li>Curuba</li>
+                    <li>Feijoa</li>
+                    <li>Maracuja-de-cobra</li>
+                </ul>
+                </p>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>Quais foram as primeiras frutas descobertas no brasil?</h2>
+            <p>
+
+            <ol>
+                <li>Janipapo</li>
+                <li>Caju</li>
+                <li>Abacaxi</li>
+                <li>Maracujá</li>
+                <li>Pitana</li>
+
+            </ol>
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Detalhes Frutas do Brasil</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Classificação</th>
+                        <th>Nome</th>
+                        <th>Região</th>
+                        <th>Ano de Descoberta</th>
+                        <th>Foto</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Jenipapo</td>
+                        <td>Mata Atlântica, Amazônia e Cerrado</td>
+                        <td>1500 - Carta de P.V. Caminhada</td>
+                        <td><img width="50" src="./img/janipapo.jpg" alt="Imagem do Jenipapo"></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Caju</td>
+                        <td>Litoral do Nordeste e Cerrado</td>
+                        <td>1500-1550</td>
+                        <td><img width="50" src="./img/caju.jpg" alt="Imagem do Caju"></td>
+                    </tr>
+
+                    <tr>
+
+                        <td>3</td>
+                        <td>Abacaxi</td>
+                        <td>Centro, Cerrado e Amazônia</td>
+                        <td>1500-1550</td>
+                        <td><img width="50" src="./img/abacaxi.jpg" alt="Imagem do Abacaxi"></td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Maracuja</td>
+                        <td>Todo brasil</td>
+                        <td>1500-1550</td>
+                        <td><img width="50" src="./img/maracuja.jpg" alt="Imagem do Maracuja"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>Pitana</td>
+                        <td>Mata Atlântica</td>
+                        <td>1550</td>
+                        <td><img width="50" src="./img/pitanga.jpg" alt="Imagem da Pitanga"></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <h2>Fruit of word</h2>
+
+        <section>
+            <h3>bibliografia:</h3>
+
+            <ul>
+                <li><a target="_blank"
+                        href="https://www.revistadafruta.com.br/noticias-do-pomar/100-frutas-raras-que-so-existem-no-brasil,440430.jhtml">100
+                        frutas raras que só existem no Brasil | Revista da Fruta</a></li>
+                <li><a target="_blank" href="https://caminhoslanguages.com/blog/biodiversity-brazil/">Biodiversity in
+                        Brazil: A Megadiverse Country | Caminhos Languages</a></li>
+                <li><a target="_blank"
+                        href="https://www.brasilianaiconografica.art.br/artigos/24244/frutas-testemunham-a-interacao-entre-diversos-povos">Frutas
+                        testemunham a interação entre diversos povos | Brasiliana I conografica</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Outros estudos</h3>
+
+            <ul>
+                <li><a target="_blank" href="./pages/pages/pagina1.html">Pagina 1</a></li>
+                <li><a target="_blank" href="./pages/pages/pagina2.html">Pagina 2</a></li>
+                <li><a target="_blank" href="./pages/pages/pagina3.html">Pagina 3</a></li>
+            </ul>
+
+        </section>
+
+        <section>
+            <h3>Acesse sua conta:</h3>
+            <p>
+                <a href="./pages/login.html">Faça login</a>
+                <br>
+                <a href="./pages/cadastro.html">Faça cadastro</a>
+            </p>
+        </section>
+    </footer>
+
+
 </body>
 
 </html>
