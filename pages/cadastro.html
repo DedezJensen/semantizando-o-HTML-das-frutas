@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+
+    <hr>
+
+    <form action="./home.html" onsubmit="alert('Cadastro realizado com sucesso!')">
+        <!-- a Tag 'form' abre um formulário na pagina, a Tag 'action' redireciona para outra pagina ao final do formulário, e 'onsubmit' dispara uma mentagem quando finaliza o form -->
+
+        <h2>Realize seu cadastrp</h2>
+
+        <p>Nome:</p>
+        <input required type="text" placeholder="Digite seu nome">
+        <!-- a Tag 'input' insere um campo na pagina, o 'required' obriga a resposta do usuario, e o 'placeholder' escreve dentro do campo -->
+
+        <p>Email:</p>
+        <input required type="email" placeholder="Digite seu email">
+
+        <p>Senha:</p>
+        <input required type="password" placeholder="Crie sua senha" minlength="5" maxlength="50">
+
+        <p>Data de nascimento:</p>
+        <input required type="date">
+
+        <p>Envie seu documento:</p>
+        <input required type="file">
+
+        <br>
+        <br>
+
+        <button type="submit">Cadastrar</button> <!-- a Tag 'button' insere um botão de resposta final no formulário -->
+        <button type="reset">Limpar</button>
+
+
+    </form>
+</body>
+
+</html>
